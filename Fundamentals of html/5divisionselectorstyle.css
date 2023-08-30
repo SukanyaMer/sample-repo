@@ -1,0 +1,46 @@
+* { //using * you can change the default setting of the browser
+  margin: 0;
+  padding: 0;
+}
+
+.color {
+  background:#9BCDD2;
+  }
+
+.my-class {
+  background-color: #F8E8EE;
+  color: #F2BED1;
+  border: 3px solid #000;
+  //px is pixel, it should be solid, it can also be dotted
+  // if we put border before the background-color then it overwrites the color to the page background color
+  width: 20rem;
+  height: 4rem;
+  padding-top:2rem;
+  margin: 5%;
+  line-height: normal;
+  letter-spacing: normal ;
+  text-align: center ;
+  font-style: italic;
+  font-weight: lighter ;
+  }
+
+#my-id {
+  background:#F1C27B;
+  color: #FF78C4;
+  width: 20rem;
+  height: 2rem;
+  text-align: center;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  display: none;
+
+}
+
+p {
+  background-color: #2E8A99;
+  color: #0E2954;
+  text-align: center;
+  font-style: oblique ;
+  display: none;
+
+}

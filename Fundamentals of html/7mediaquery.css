@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding:0;
+}
+
+body{
+  background-color: #000;
+  padding: 200px;
+}
+
+@media (min-width: 1280px)   {/* similarly we can also use it for max width */
+  body{
+  background-color:#EAB2A0;
+ }
+}
+
+.parent{
+  background-color: #fff;
+  width: 800px;
+  height: 500px;
+  display: flex;/* displays the content in the parent class */
+  grid-gap: 5px;
+  flex-wrap: wrap;/* wraps it up to spread evenly in the parent */
+  justify-content: center ;
+
+}
+
+.child{
+  background: #EAB2A0;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+
+}

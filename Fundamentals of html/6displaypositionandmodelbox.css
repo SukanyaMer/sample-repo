@@ -1,0 +1,22 @@
+*{
+  margin:0;
+  padding:0;
+}
+.Parent{
+  position: relative; /* Relative means the child class position will be relative to the parent class  */
+  background: #A4907C;
+  width: 100%;
+  height: 200px;
+}
+
+.Child{
+  position: absolute;/* absolute means we will define the position of the child not the default */
+  background-color: #98EECC;
+  width: 100px;
+  height:50px;
+  margin: 10px;/*the margin separstes all the blocks, otherwise it will just be a straight line */
+
+ /* if you {display: inline-block;} display them as inline element, they will be printed side by side*/
+  top: 0;
+  right: 0; /* it will be at the top-rightmost corner  */
+}
